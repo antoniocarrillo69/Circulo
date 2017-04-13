@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="Circulo.exe"/>
+    <OBJFILES value="Circulo.obj VentanaPrincipal.obj FuncionDisparo.obj DefiniciónEcuación.obj 
+      Sincronizaciones.obj NumeroRotacion.obj ExponenteLyapunov.obj 
+      VentanaBifurcaciones.obj VentanaCirculo.obj VentanaToro.obj 
+      VentanaLevantamientos.obj Acecade.obj ParamBifurcaciones.obj ParamToro.obj 
+      ParamLevantamientos.obj ParamCirculo.obj ParamGlobales.obj 
+      ..\Libreria\V_pixel.obj ..\Libreria\FORMAS\Ayuda.obj 
+      ..\Libreria\FORMAS\Editor.obj ..\Libreria\ctrl_l_a.obj 
+      ..\Libreria\Cadenas.obj ..\Libreria\Fechas.obj ..\Libreria\fechora.obj 
+      ..\Libreria\Man_arch.obj ..\Libreria\Tiempo.obj 
+      ..\Libreria\FORMAS\ACX-WebBrowser.obj ..\Libreria\FORMAS\EnviarCorreo.obj 
+      ..\Libreria\FORMAS\Lmensaje.obj ..\Libreria\FORMAS\VEditor.obj 
+      ParamLenguas.obj VentanaLenguas.obj VentanaEscalera.obj ParamEscalera.obj"/>
+    <RESFILES value="Circulo.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) VentanaPrincipal.dfm VentanaBifurcaciones.dfm 
+      VentanaCirculo.dfm VentanaToro.dfm VentanaLevantamientos.dfm Acecade.dfm 
+      ParamBifurcaciones.dfm ParamToro.dfm ParamLevantamientos.dfm 
+      ParamCirculo.dfm ParamGlobales.dfm ..\Libreria\FORMAS\Ayuda.dfm 
+      ..\Libreria\FORMAS\Editor.dfm ..\Libreria\FORMAS\ACX-WebBrowser.dfm 
+      ..\Libreria\FORMAS\EnviarCorreo.dfm ..\Libreria\FORMAS\Lmensaje.dfm 
+      ..\Libreria\FORMAS\VEditor.dfm ParamLenguas.dfm VentanaLenguas.dfm 
+      VentanaEscalera.dfm ParamEscalera.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="bcbie50.lib DCLUSR50.lib nmfast50.lib vclx50.lib vcl50.lib"/>
+    <SPARELIBS value="vcl50.lib vclx50.lib nmfast50.lib DCLUSR50.lib bcbie50.lib"/>
+    <PACKAGES value="vcl50.bpi vclx50.bpi vcljpg50.bpi vclmid50.bpi vcldb50.bpi vclbde50.bpi 
+      bcbsmp50.bpi ibsmp50.bpi vcldbx50.bpi qrpt50.bpi teeui50.bpi teedb50.bpi 
+      tee50.bpi dss50.bpi nmfast50.bpi inetdb50.bpi inet50.bpi dclocx50.bpi"/>
+    <PATHCPP value=".;..\Libreria;..\Libreria\FORMAS"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="__PROGRAMACION_WINDOWS__"/>
+    <SYSDEFINES value="NO_STRICT;_VIS_NOLIB"/>
+    <MAINSOURCE value="Circulo.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Archivos de programa\Borland\CBuilder4\Projects\&quot;;$(BCB)\Imports;&quot;C:\Program Files\Borland\CBuilder4\Projects\&quot;;..\Libreria\FORMAS;..\Libreria;..;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Archivos de programa\Borland\CBuilder4\Projects\&quot;;$(BCB)\Imports;$(BCB)\Projects\Lib;&quot;C:\Program Files\Borland\CBuilder4\Projects\&quot;;..\Libreria\FORMAS;..\Libreria;..;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Archivos de programa\Borland\CBuilder4\Projects\.&quot; -I$(BCB)\Imports 
+      -I&quot;C:\Program Files\Borland\CBuilder4\Projects\.&quot; -I..\Libreria\FORMAS 
+      -I..\Libreria -I.. -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp 
+      -D__PROGRAMACION_WINDOWS__ -boa"/>
+    <CFLAG1 value="-O2 -H=C:\Temp\vcl50.csm -Hc -Vx -Ve -ff -X- -a2 -4 -b- -d -k- -vi -c -tW 
+      -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=0
+Build=129
+Debug=0
+PreRelease=1
+Special=0
+Private=0
+DLL=0
+Locale=2058
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Laboratorio de Dinámica no Lineal, UNAM y Laboratorios de Sistemas Complejos
+FileDescription=
+FileVersion=1.0.0.129
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=Integrate and Fire Systems
+ProductVersion=1.0.0.0
+Comments=Programador: Antonio Carrillo Ledesma
+
+[HistoryLists\hlIncludePath]
+Count=9
+Item0=C:\Archivos de programa\Borland\CBuilder4\Projects\;$(BCB)\Imports;C:\Program Files\Borland\CBuilder4\Projects\;..\Libreria\FORMAS;..\Libreria;..;$(BCB)\include;$(BCB)\include\vcl
+Item1=C:\Archivos de programa\Borland\CBuilder4\Projects;$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects\;C:\Program Files\Borland\CBuilder4\Projects\;..\Libreria\FORMAS;..\Libreria;..;$(BCB)\include;$(BCB)\include\vcl
+Item2=$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects\;C:\Program Files\Borland\CBuilder4\Projects\;..\Libreria\FORMAS;..\Libreria;..;$(BCB)\include;$(BCB)\include\vcl
+Item3=C:\Archivos de programa\Borland\CBuilder4\Projects;C:\Program Files\Borland\CBuilder4\Projects\;..\Libreria\FORMAS;..\Libreria;C:\Archivos de programa\Borland\CBuilder4\Projects\;..;$(BCB)\include;$(BCB)\include\vcl
+Item4=C:\Program Files\Borland\CBuilder4\Projects;..\Libreria\FORMAS;..\Libreria;C:\Archivos de programa\Borland\CBuilder4\Projects\;..;$(BCB)\include;$(BCB)\include\vcl
+Item5=..\Libreria\FORMAS;..\Libreria;C:\Archivos de programa\Borland\CBuilder4\Projects\;..;$(BCB)\include;$(BCB)\include\vcl
+Item6=..\Libreria\FORMAS;..\Libreria;C:\Archivos de programa\Borland\CBuilder4\Projects\;..\..\Programacion;$(BCB)\include;$(BCB)\include\vcl
+Item7=C:\Archivos de programa\Borland\CBuilder4\Projects\;..;$(BCB)\include;$(BCB)\include\vcl
+Item8=C:\Archivos de programa\Borland\CBuilder4\Projects;C:\Archivos de programa\Borland\CBuilder4\Projects\;..;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=9
+Item0=C:\Archivos de programa\Borland\CBuilder4\Projects\;$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder4\Projects\;..\Libreria\FORMAS;..\Libreria;..;$(BCB)\lib\obj;$(BCB)\lib
+Item1=C:\Archivos de programa\Borland\CBuilder4\Projects;$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Archivos de programa\Borland\CBuilder4\Projects\;C:\Program Files\Borland\CBuilder4\Projects\;..\Libreria\FORMAS;..\Libreria;..;$(BCB)\lib\obj;$(BCB)\lib
+Item2=$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Archivos de programa\Borland\CBuilder4\Projects\;C:\Program Files\Borland\CBuilder4\Projects\;..\Libreria\FORMAS;..\Libreria;..;$(BCB)\lib\obj;$(BCB)\lib
+Item3=C:\Archivos de programa\Borland\CBuilder4\Projects;C:\Program Files\Borland\CBuilder4\Projects\;..\Libreria\FORMAS;..\Libreria;C:\Archivos de programa\Borland\CBuilder4\Projects\;..;$(BCB)\lib\obj;$(BCB)\lib
+Item4=C:\Program Files\Borland\CBuilder4\Projects;..\Libreria\FORMAS;..\Libreria;C:\Archivos de programa\Borland\CBuilder4\Projects\;..;$(BCB)\lib\obj;$(BCB)\lib
+Item5=..\Libreria\FORMAS;..\Libreria;C:\Archivos de programa\Borland\CBuilder4\Projects\;..;$(BCB)\lib\obj;$(BCB)\lib
+Item6=..\Libreria\FORMAS;..\Libreria;C:\Archivos de programa\Borland\CBuilder4\Projects\;..\..\Programacion;$(BCB)\lib\obj;$(BCB)\lib
+Item7=C:\Archivos de programa\Borland\CBuilder4\Projects\;..;$(BCB)\lib\obj;$(BCB)\lib
+Item8=C:\Archivos de programa\Borland\CBuilder4\Projects;C:\Archivos de programa\Borland\CBuilder4\Projects\;..;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=3
+Item0=__PROGRAMACION_WINDOWS__
+Item1=__PROGRAMACION_WINDOWS__;_DEBUG
+Item2=DSIERRA
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=1
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
